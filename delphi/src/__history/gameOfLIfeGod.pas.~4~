@@ -1,0 +1,24 @@
+unit gameOfLifeGod;
+
+interface
+
+type
+  TgameOfLifeGod = class(TObject)
+  public
+    procedure createRandomInitialMap();
+    procedure startGameOfLife();
+  end;
+
+implementation
+
+procedure TgameOfLifeGod.createRandomInitialMap();
+begin
+
+end;
+
+procedure TgameOfLifeGod.startGameOfLife();
+begin
+
+end;
+
+end.

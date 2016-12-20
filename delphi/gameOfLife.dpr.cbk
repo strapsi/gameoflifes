@@ -1,0 +1,17 @@
+﻿program gameOfLife;
+
+uses
+  Forms,
+  gameOfLifeForm in 'src\gameOfLifeForm.pas' {gameOfLifeScene},
+  gameOfLifeTests in 'src\gameOfLifeTests.pas',
+  gameOfLIfeGod in 'src\gameOfLIfeGod.pas',
+  gameOfLifeTypes in 'src\gameOfLifeTypes.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TgameOfLifeScene, gameOfLifeScene);
+  Application.Run;
+end.

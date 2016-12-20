@@ -1,0 +1,11 @@
+unit gameOfLifeGod;
+
+interface
+
+type
+  TgameOfLifeGod = class(TObject)
+  end;
+
+implementation
+
+end.
